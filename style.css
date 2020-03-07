@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.page .left-side {
+  width: 70%;
+  height: 100vh;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.page .left-side header {
+  padding: 0px 20px;
+}
+
+.page .left-side header .menu span {
+  margin-left: 10px;
+}
+
+.page .left-side .text-box {
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: -50px;
+}
+
+.page .left-side .text-box h1 {
+  font-size: 100px;
+  letter-spacing: 10px;
+}
+
+.page .left-side .text-box p {
+  margin-top: -70px;
+  font-size: 12px;
+  width: 300px;
+  border-left: 1px solid #fff;
+  padding: 10px;
+}
+
+.page .left-side .pagination {
+  position: fixed;
+  width: 70%;
+  bottom: 0;
+  text-align: right;
+}
+
+.page .left-side .pagination .slider {
+  padding: 5px 10px;
+  overflow: hidden;
+  text-align: right;
+}
+
+.page .left-side .pagination .slider div {
+  width: 1px;
+  height: 100px;
+  background-color: #fff;
+  display: block;
+  border: 1px solid #fff;
+  position: relative;
+  margin-left: 99%;
+}
+
+.page .left-side .pagination .next-prev button:nth-child(1) {
+  font-size: 20px;
+  color: #fff;
+  padding: 20px;
+  background-color: #293543;
+  font-weight: bold;
+  border: 1px solid #293543;
+  margin-right: -4px;
+}
+
+.page .left-side .pagination .next-prev button:nth-child(2) {
+  font-size: 20px;
+  color: #fff;
+  padding: 20px;
+  background-color: #3b4d5b;
+  font-weight: bold;
+  border: 1px solid #3b4d5b;
+  margin: 0 auto;
+}
+
+/*//////////////////////////////////////////////*/
+
+.page .right-side {
+  height: 100vh;
+  background-color: #d6caca;
+  width: 30%;
+  text-align: center;
+}
+
+.page .right-side header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.page .right-side header i {
+  font-size: 20px;
+}
+
+.page .right-side header span {
+  font-size: 13px;
+}
+
+.page .right-side .body h3 {
+  color: #fff;
+}
+
+.page .right-side .body img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.page .right-side .body p {
+  font-size: 12px;
+  margin-top: -20px;
+}
+
+.page .right-side .body h1 {
+  font-size: 50px;
+  margin-top: -5px;
+}
+
+.page .right-side .body h5 {
+  margin-top: -25px;
+}
+
+.page .right-side .body h5 span {
+  background-color: #fff;
+  padding: 2px 5px;
+}
+
+.page .right-side footer {
+  position: fixed;
+  bottom: 0;
+  width: 20%;
+  background-color: #141d20;
+  color: #fff;
+  left: 50%;
+  margin-left: 24.5%;
+  padding: 10px;
+}
+
+.page .right-side footer span {
+  font-size: 12px;
+}
+
+.page .right-side footer h4 {
+  margin-bottom: 0;
+}
